@@ -6,6 +6,8 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SimpleHttpComponent } from './components/simple-http/simple-http.component';
 import { YoutubeSearchComponent } from './components/youtube-search/youtube-search.component';
+import { SearchBoxComponent } from './components/youtube-search/youtube-searchbox.component';
+import { SearchResultComponent } from './components/youtube-search/youtube-search-result.component';
 
 import { youTubeSearchInjectables } from './components/youtube-search/youtube-search.injectables';
 
@@ -13,7 +15,9 @@ import { youTubeSearchInjectables } from './components/youtube-search/youtube-se
   declarations: [
     AppComponent,
     SimpleHttpComponent,
-    YoutubeSearchComponent
+    YoutubeSearchComponent,
+    SearchBoxComponent,
+    SearchResultComponent
   ],
   imports: [
     BrowserModule,
